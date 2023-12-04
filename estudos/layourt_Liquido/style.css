@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  
+    width: 90%;
+    margin: auto;
+    min-width: 720px;
+    max-width: 1080px;
+}
+.marca{
+    padding: 20px;
+    background-color: darkgrey;
+    text-align: center;
+
+}
+.conteudo{
+    float: right;
+    width: 82%; /* 580px */
+
+}
+
+.navegacao{
+    float: left;
+    width: 15%; /*120 px*/
+    background-color: rgb(224, 224, 224);
+
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+li a{    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+li a:hover{
+    color: blue;
+}
+.conteudoprimario{
+    width: 66%; /* 350px*/
+    float: left;
+    padding: 5px;
+
+}
+.conteudosecundario{
+    width: 30%; /* 180px */
+    float: right;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+
+.rodape{
+    clear: both;
+    background-color: rgb(182, 182, 182);
+    padding: 8px;
+    text-align: center;
+   
+}

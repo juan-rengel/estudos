@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    background-color: cadetblue;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 5px 25px;
+    border-left: solid 1px rgb(173, 173, 173);
+    color: white;
+}
+
+a:hover, .activo a{
+    background-color: rgb(66, 212, 218);
+}

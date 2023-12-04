@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    min-width: 720px;
+    background: url(imagen/coluna.png) repeat-y left top;
+}
+
+.marca{
+    background-color: cornflowerblue;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+}
+
+.navegacao{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 12%;
+    float: left;
+    padding-left: 20px;
+}
+
+.conteudo{
+    width: 76.7%;
+    float: right;
+}
+
+img.imagen {
+    width: 90%;
+}
+
+.rodape{
+    clear: both;
+}
+
+.conteudoprimario{
+    float: left;
+    width: 70%;
+}
+
+.conteudosecundario{
+    float: right;
+    width: 28%;
+    padding: 5px;
+}
+
+.rodape{
+    text-align: center;
+    background-color: rgb(179, 179, 179);
+}
