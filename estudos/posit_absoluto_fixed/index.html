@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position absoluto e fixed</title>
+  <style>
+    .container{
+      border: solid 1px rgb(0, 0, 0);
+      width: 600px;
+
+      height: 600px;
+      margin: 20px auto;
+      padding: 5px;
+      position: relative;
+    }
+    .caixa01{
+      border: solid 1px rgb(212, 236, 0);
+      background-color: gold;
+      width: 150px;
+      padding: 5px;
+    }
+    .caixa02{
+      border: solid 1px rgb(0, 51, 255);
+      background-color: blue;
+      width: 150px;
+      padding: 5px;
+
+    }
+    .caixa03{
+      border: solid 1px red;
+      background-color: red;
+      width: 150px;
+      padding: 5px;
+      position: absolute;
+      left: 20px;
+      bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>position asolute e fixed</h1>
+  <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>
+
+  <div class="container">
+
+      <div class="caixa01">
+        caixa01
+      </div>
+
+      <div class="caixa02">
+        caixa02
+      </div>
+
+      <div class="caixa03">
+        caixa03
+      </div>
+
+  </div>
+</body>
+</html>
