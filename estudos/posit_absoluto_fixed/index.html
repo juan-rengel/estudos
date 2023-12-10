@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>position absoluto e fixed</title>
   <style>
+    .principal{
+      margin-top: 50px;
+    }
     .container{
       border: solid 1px rgb(0, 0, 0);
       width: 600px;
-
       height: 600px;
       margin: 20px auto;
       padding: 5px;
-      position: relative;
+      position: relative; /* ejemplo con position relative */
+      margin-top: 50px;
     }
     .caixa01{
       border: solid 1px rgb(212, 236, 0);
@@ -32,15 +35,18 @@
       background-color: red;
       width: 150px;
       padding: 5px;
-      position: absolute;
+      
       left: 20px;
-      bottom: 5px;
+      bottom: 5px; /* ejemplo con position absoluto */
     }
+  
   </style>
 </head>
 <body>
-  <h1>position asolute e fixed</h1>
-  <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>
+  <div class="fixed">
+    <h1>position asolute e fixed</h1>
+    <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>
+  </div>
 
   <div class="container">
 
@@ -57,5 +63,15 @@
       </div>
 
   </div>
+  <div>
+    <h1>position asolute e fixed</h1>
+  
+  <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>
+  </div>
+
+  <h1>position asolute e fixed</h1>
+  <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>
+  <h1>position asolute e fixed</h1>
+  <p>En este caso observamos que el position absoluto tiene como objetivo mover um elemento tomando en cuenta el viewport osea la janela.. ya que puede tomar en cuanta otra caixa si aplicamos en ella una position relativa. poderiamos usar el adsoluto para movel el elemento dentro de una otra caja tomandola en cuenta sus medias</p>   
 </body>
 </html>
