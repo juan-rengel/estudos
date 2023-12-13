@@ -9,7 +9,6 @@ body{
 }
 .container{
   width: 750px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 #topo{
@@ -23,8 +22,46 @@ body{
   background: url("../imagenes/logo.png") no-repeat center;
   text-indent: -3000px;
 }
-/* NAVEGAÇAO */
+/*NAVEGAÇAO*/
 
 ul{
-  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+#topo ul{
+  background-color: #b10333 ;
+  margin-top: 30px;
+  float: left;
+}
+#topo ul li{
+  float: left;
+}
+#topo ul li a{
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  background: url("../imagenes/divisor.png") no-repeat left center;
+  text-decoration: none;
+  color: white;
+}
+#topo ul li a:hover{
+ color: #69001d;
+}
+#topo ul .primeiro a{
+  background: none;
+}
+
+body .home #navegacao a#home,
+body .brasil #navegacao a#brasil,
+body .internacional #navegacao a#internacional,
+body .economia #navegacao a#economia,
+body .saude #navegacao a#saude,
+body .ciencia #navegacao a#ciencia,
+body .fotos #navegacao a#fotos{
+  background: #de003e;
+  color: #fff;
+  cursor: text;
+}
+
