@@ -65,3 +65,43 @@ body .fotos #navegacao a#fotos{
   cursor: text;
 }
 
+/*inicio layourt home 3 coluna */
+
+.conteudo{
+  background-color: rgba(224, 224, 224, 0.786);
+  margin-top: 60px;
+}
+
+#primario{
+  width: 270px;
+  background-color: blue;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+#secundario{
+  width: 270px;
+  background-color: rgb(34, 255, 0);
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+#lateral{
+  width: 180px;
+  background-color: rgb(221, 255, 0);
+  float: left;
+  margin: 0 0 20px -750px;
+}
+
+
+.cont_rodape{
+  background-color: rgb(79, 79, 173);
+  padding: 25px;
+  color: #fff;
+}
+#rodape{
+  width: 750px;
+  margin: 0 auto;
+}
+
+
