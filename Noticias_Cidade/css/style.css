@@ -79,6 +79,15 @@ body .fotos #navegacao a#fotos{
   margin: 0 0 20px 195px;
 }
 
+#duas-coluna #primario{
+  width: 555px;
+}
+
+#uma-coluna #primario{
+  width: 750px;
+  margin: 0 0 20px 0;
+}
+
 #secundario{
   width: 270px;
   background-color: rgb(34, 255, 0);
@@ -88,14 +97,46 @@ body .fotos #navegacao a#fotos{
 
 #lateral{
   width: 180px;
-  background-color: rgb(221, 255, 0);
   float: left;
   margin: 0 0 20px -750px;
 }
+/* inicio caixa lateral  */
+.caixa{
+  background: #f3f3f3 url(../imagenes/fundo-caixa.png);
+  margin: 5px 0 5px 0;
+  padding: 5px;
+}
+
+h2{
+  font-size: 1em;
+  background-color: #333371;
+  color: white;
+  padding: 5px;
+  
+}
+.caixa-conteudo{
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+#lateral ul{
+  list-style: none;
+  padding: 5px;
+}
+
+#lateral ul a{
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* fim caixa lateral  */
 
 
+
+/* inicio rodape */
 .cont_rodape{
-  background-color: rgb(79, 79, 173);
+  background-color: #4f4fad;
   padding: 25px;
   color: #fff;
 }
@@ -104,4 +145,4 @@ body .fotos #navegacao a#fotos{
   margin: 0 auto;
 }
 
-
+/* fim rodape */
