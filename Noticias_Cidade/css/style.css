@@ -23,6 +23,14 @@ body{
   text-indent: -3000px;
 }
 /*NAVEGAÇAO*/
+a:link, a:visited {
+  color: #b10333;
+  padding: 2px;
+}
+
+a:hover{
+  color: #e50040;
+}
 
 ul{
   margin: 0;
