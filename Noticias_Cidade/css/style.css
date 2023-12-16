@@ -165,7 +165,6 @@ input.submit{
 /* INICIO  ENRTREVISTRA */
 
 h3{
-  background-color: #b10333;
   display: inline;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -190,14 +189,15 @@ h3{
 
 
 /* FORMATANDO LISTAS DE NOTICIAS */
-#lista-noticias li a img{
-  float: left;
-}
 
 #lista-noticias li {
   padding: 2px;
   border-bottom: 1px solid #ccc;
-  height: 62px;
+  height: 65px;
+}
+
+#lista-noticias li a img{
+  float: left;
   margin: 5px;
 }
 
@@ -208,10 +208,12 @@ h3{
 #lista-noticias li a h3{
   padding: 0;
   font-size: 0.8em;
+  color: #3e7ab9;
 }
 
 #lista-noticias li a p{
-  font-size: 0.6em;
+  font-size: 0.7em;
+  color: #000;
 
 }
 
