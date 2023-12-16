@@ -74,7 +74,6 @@ body .fotos #navegacao a#fotos{
 
 #primario{
   width: 270px;
-  background-color: blue;
   float: left;
   margin: 0 0 20px 195px;
 }
@@ -90,7 +89,6 @@ body .fotos #navegacao a#fotos{
 
 #secundario{
   width: 270px;
-  background-color: rgb(34, 255, 0);
   float: left;
   margin: 0 0 20px 15px;
 }
@@ -100,22 +98,25 @@ body .fotos #navegacao a#fotos{
   float: left;
   margin: 0 0 20px -750px;
 }
+
+
 /* inicio caixa lateral  */
 .caixa{
   background: #f3f3f3 url(../imagenes/fundo-caixa.png);
-  margin: 5px 0 5px 0;
+  margin: 10px 0;
   padding: 5px;
 }
 
 h2{
-  font-size: 1em;
-  background-color: #333371;
+  font-size: 1.1em;
+  background: #294c71;
   color: white;
   padding: 5px;
   
 }
 .caixa-conteudo{
   background-color: #fff;
+  padding: 5px;
   margin-top: 5px;
 }
 
@@ -125,17 +126,98 @@ h2{
 }
 
 #lateral ul a{
+  font-size: 0.9em;
   display: block;
   text-decoration: none;
-  padding: 5px;
+  padding: 3px;
+  line-height: 30px;
+  color: #000;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 #lateral ul a:hover{
   background: url(../imagenes/marcador.png) no-repeat left center;
-  padding-left: 20px;
+  padding-left: 25px;
+  color: #a1a1a1;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+input{
+  padding: 5px;
+  width: 150px;
+  font-size: 0.9em;
+}
+input.submit{
+  background-color: #b10333;
+  color: #fff;
+  width: 80px;
+  border: 2px solid #870529;
+  cursor: pointer;
+
 }
 
 /* fim caixa lateral  */
+
+
+/* INICIO  ENRTREVISTRA */
+
+h3{
+  background-color: #b10333;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaques h3{
+  background: #b10333;
+  color: #fff;
+}
+
+.entrevista h3{
+  background: #de003e;
+}
+
+.img-primaria{
+  border: 3px solid #dfdfdf;
+  width: 98%;
+}
+
+/* FIM ENRTREVISTRA */
+
+
+/* FORMATANDO LISTAS DE NOTICIAS */
+#lista-noticias li a img{
+  float: left;
+}
+
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 62px;
+  margin: 5px;
+}
+
+#lista-noticias li a{
+  text-decoration: none;
+}
+
+#lista-noticias li a h3{
+  padding: 0;
+  font-size: 0.8em;
+}
+
+#lista-noticias li a p{
+  font-size: 0.6em;
+
+}
+
+
+
+/* FIM DEFORMATAÇÃO DE LISTAS NOTICIAS */
 
 
 
