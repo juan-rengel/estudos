@@ -60,14 +60,17 @@ body{
 }
 
 #menu-locais{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 5px;
-  font-size: 0.8em;
+  border-top: 1px solid #b5ab56;
+  border-bottom: 1px solid #b5ab56;;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.7em;
+  color: #8b8448;
+
 }
 
-#conrteudo-menu .locais a{
-  float: right;
+#menu-locais a{
+ 
 }
 
 
