@@ -163,37 +163,38 @@ h2{
   padding: 5px 0;
 }
 
-#menu-lateral li a img{
-  float: left;
-  margin: 5px;
-}
+
+/* formataçao menu laterar */
 
 #menu-lateral li{
-  border-bottom: 1px solid rgb(147, 143, 99);
+  border-bottom: 1px solid #f3efcb;
+  padding: 8px;
+  height: 6em;
 }
 
 #menu-lateral li:hover{
-  background: #ede9cc;
+  background: #f6f3d6;
+  cursor: pointer;
 }
 
+
+#menu-lateral li a img{
+  float: left;
+  margin-right: 8px;
+}
+
+#menu-lateral li a p{
+  font-size: 0.8em;
+  color: #000;
+}
 
 
 #menu-lateral li a h3{
   text-transform: capitalize;
   font-size: 1.1em;
-  padding: 10px;
-  color: #7d7640;
+  padding: 5px 0;
+  color: #615b2d;
+  background: url(../imagenes/ornamento.png) no-repeat center right;
 }
 
-
-#menu-lateral li a p{
-  font-size: 1em;
-  color: black;
-}
-
-
-
-
-
-/* formataçao menu laterar */
 
