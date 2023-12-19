@@ -9,8 +9,8 @@ body{
   margin: 15px;
 }
 .container{
+  background: #ede9cc url(../imagenes/bg-container.png) top center repeat-y;
   margin: 0 auto;
-  background: #ede9cc;
   min-width: 740px;
   max-width: 1180px;
 }
@@ -120,6 +120,36 @@ ul#navegacao{
 
 
 
-/* inicio  menu lateral */
+/* fim menu lateral */
 
-/* inicio topo*/
+/* Inicio conteudo principal */
+
+#principal{
+  background: url(../imagenes/bg-area-principal.png) top left repeat-x;
+  width: 50%;
+  float: left;
+  padding: 15px 0;
+}
+
+#lateral{
+  background: url(../imagenes/bg-area-lateral.png) top left repeat-x;
+  width: 50%;
+  float: right;
+  padding: 20px 0;
+
+}
+
+.conteudo{
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+#area-rodape{
+  width: 100%;
+}
+
+.rodape{
+  clear: both;
+  background-color: rgb(193, 193, 193);
+}
