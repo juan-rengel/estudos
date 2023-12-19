@@ -149,7 +149,51 @@ ul#navegacao{
   width: 100%;
 }
 
-.rodape{
+#area-rodape{
   clear: both;
-  background-color: rgb(193, 193, 193);
+  padding: 16px;
+  color: #7d7640;
+  background: #fff url(../imagenes/bg-rodape.png) top repeat-x;
 }
+
+/*formataçao de texto */
+
+h2{
+  color: #7d7640;
+  padding: 5px 0;
+}
+
+#menu-lateral li a img{
+  float: left;
+  margin: 5px;
+}
+
+#menu-lateral li{
+  border-bottom: 1px solid rgb(147, 143, 99);
+}
+
+#menu-lateral li:hover{
+  background: #ede9cc;
+}
+
+
+
+#menu-lateral li a h3{
+  text-transform: capitalize;
+  font-size: 1.1em;
+  padding: 10px;
+  color: #7d7640;
+}
+
+
+#menu-lateral li a p{
+  font-size: 1em;
+  color: black;
+}
+
+
+
+
+
+/* formataçao menu laterar */
+
