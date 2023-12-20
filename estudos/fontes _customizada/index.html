@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes customizadas</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html{
+      height: 100%;
+    }
+
+    .container{
+      width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: cornsilk;
+      height: 100%;
+      box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.233);
+    }
+    h1{
+      padding-top: 25px;
+    }
+
+    @font-face {
+      font-family: RioGrande;
+      src: url(fontes/RioGrande-Bold.woff);
+    }
+
+    @font-face {
+      font-family: "RioGrande Striped";
+      src: url(fontes/RioGrandeStriped-Bold.woff);
+    }
+
+    h1{
+      font-family: RioGrande;
+      font-size: 45px;
+      margin-bottom: 25px ;
+    }
+
+    h2{
+      font-family: "RioGrande Striped";
+      font-size: 45px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fontes Customizadas</h1>
+    <h2>Fontes Customizadas</h1>
+  </div>
+</body>
+</html>
