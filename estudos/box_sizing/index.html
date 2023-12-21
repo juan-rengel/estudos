@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box-sizing</title>
+  <style>
+    body, html{
+      height: 100%;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      background-color: beige;
+      width: 800px;
+      height: 100%;
+      margin: 0 auto;
+      padding: 15px;
+      box-sizing: border-box;
+
+    }
+
+    .caixa{
+      width: 250px;
+      height: 250px;
+      background-color: rgb(66, 96, 97);
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box; 
+    }
+
+    .caixa h2{
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: rgb(81, 255, 0);
+    }
+
+    .caixa p{
+      text-align: center;
+      font-size: 18px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="caixa">
+      <h2>box sizing</h2>
+      <p>
+        es usado para<strong> martener el tamaño de la caja sin alterar el tamaño aplicando padding</strong> o algun otro tipo de espazamento 
+      </p>
+    </div>
+  </div>
+</body>
+</html>
