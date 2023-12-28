@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novas input</title>
+</head>
+<body>
+  <form>
+    <label for="nome">name</label>
+    <input type="text" id="nome" required>
+    <br><br>
+
+    <label for="gmail">E-mail</label>
+    <input type="email" id="gmail" required>
+    <br><br>
+
+    <label for="num">numero</label>
+    <input type="number" id="num" min="1" max="10" step="2">  <!--step: permite escalar a cada numero alocado. exemplo. 1 3 5 7 9 -->
+    <br><br>
+
+    <label for="ulr">ulr</label>
+    <input type="ulr" id="ulr" placeholder="Ex: http://www..">
+    <br><br>
+
+    <label for="pesquisa">pesquisa</label>
+    <input type="search" id="pesquisa" >
+    <br><br>
+
+
+    <label for="range">range</label>
+    <input type="range" id="range" min="1" max="10" value="2">
+    <br><br>
+
+    <label for="data">data</label>
+    <input type="date" id="data" required>
+    <br><br>
+
+    <label for="cor">cor</label>
+    <input type="color" id="cor" required>
+    <br><br>
+
+    <input type="submit">
+
+  </form>
+</body>
+</html>
