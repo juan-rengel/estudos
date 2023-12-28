@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes movimiento {
+  from{
+    background-color: rgb(0, 255, 85);
+  }
+
+  to{
+    background-color: rgb(157, 255, 0);
+    padding: 10px;
+  }
+}
+
+.caixa{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    animation-name: movimiento;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+  
+  }
+
+
+/*
+}
+.caixa{
+  position: relative;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  animation-name: movimiento;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: 5; /* o infinite repete infinitamente */
+  /*animation-direction: alternate; /* vuelve del final al inicial*/
+
+/*
