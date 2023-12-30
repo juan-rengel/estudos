@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex blox container</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: black;
+    }
+
+    .container{
+      background-color: rgb(96, 96, 39);
+      height: 650px;
+      padding: 5px;
+      display: flex;
+      flex-direction:  row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; /* divide todos los espacios iguales */
+      align-items: center;
+
+    }
+
+    .item{
+      position: relative;
+      width: 100px;
+      height: 150px;
+      border: 1px solid black;
+      margin: 5px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+
+    h2{
+      text-align: center;
+      background-color: aqua;
+      border-radius: 10px 10px 0 0;
+    }
+
+    p{
+    padding: 5px;
+    font-size: 15px;
+    
+    }
+
+    a{
+      position: absolute;
+      text-decoration: none;
+      font-size: 14px;
+      display: block;
+      color: blueviolet;
+      top: 85%;
+      left: 15%;
+    }
+
+    a:hover{
+      color: dimgray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <h2>01</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur</p>
+      <a href="#">saiba mais</a>
+    </div>
+
+    <div class="item">
+        <h2>02</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur</p>
+        <a href="#">saiba mais</a>
+    </div>
+
+    <div class="item">
+        <h2>03</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur</p>
+        <a href="#">saiba mais</a>
+    </div>
+
+    <div class="item">
+      <h2>04</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur</p>
+        <a href="#">saiba mais</a>
+    </div>
+
+    <div class="item">
+      <h2>05</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur</p>
+        <a href="#">saiba mais</a>
+    </div>
+  </div>
+</body>
+</html>
