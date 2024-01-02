@@ -11,28 +11,6 @@
       padding: 5px;
       display: flex; /*padrao um ao lado do outro*/
 
-      /*______________________________________________
-       row | row-reverse | column | column-reverse |*/
-      flex-direction: row;
-      /*_____________________________________________________________*/
-
-
-        /* ________________________________
-        nowrap  | wrap | wrap-reverse.*/
-      flex-wrap: nowrap;
-
-    
-
-        /* _________________________________________________________________
-          flex-start  | flex-end | center | space-between | space-around .*/
-      justify-content: space-around;
-
-  
-
-        /*____________________________________________________
-        stretch | center | flex-start | flex-end | baseline.*/
-      align-items: center;
-
     } /* fim do container */
 
     .item{
@@ -51,6 +29,15 @@
     /* permite alterar o lugar padrao do items , conteudos etc. dentro do container
     por padrao todos eles são 0 e vao na sequencia conforme nos alocamos e o valor negativo sempre vai ter preferencia en relacao nos padroes -1
     */
+    .ordem{
+      order: -1;
+      background-color: #ffee00;
+      color: black;
+      border: 3px solid black;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
     .ordem1{
       order: 1;
     }
@@ -74,7 +61,7 @@
 
       <div class="item">01</div>
       <div class="item">02</div>
-      <div class="item">03</div>
+      <div class="item ordem">03</div>
       <div class="item">04</div>
 
   </div>
