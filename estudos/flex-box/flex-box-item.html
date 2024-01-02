@@ -64,14 +64,24 @@
 
 
 
-/* Flex-shrink: | 1 | - | 2 | | 3 | define la proporcion de reducion ocupado por um items.
+/* Flex-shrink: | 1 | - | 2 | | 3 | define la capacidade de reducion de tamanho do items.
 
     permite reducir um items até certo ponto  al contrario de grow a propiedade shrink determina qual sera o items que sera reducido. em quanto mais o numero maus reducira.. 
   */
   
-  .reducir-shrink{
+  .item-shrink{
     flex-shrink: 2;
   }
+
+  /* Flex-basis: 100px; 
+
+    indica o tamanho inicial do flex item antes da distribuçao do espaço restante. 
+  */
+  
+  .item-basis{
+    flex-shrink: 2;
+  }
+
 
   
 
@@ -84,7 +94,7 @@
     <div class="container">
 
       <div class="item grow1">01</div>
-      <div class="item reducir-shrink">02</div>
+      <div class="item item-shrink">02</div>
       <div class="item ordem">03</div>
       <div class="item">04</div>
 
