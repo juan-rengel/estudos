@@ -26,8 +26,15 @@
     }
 
 
-    /* permite alterar o lugar padrao do items , conteudos etc. dentro do container
+    /* order: aplicado directo no items permite alterar o lugar padrao do items , conteudos etc. dentro do container
     por padrao todos eles são 0 e vao na sequencia conforme nos alocamos e o valor negativo sempre vai ter preferencia en relacao nos padroes -1
+
+    order:  ;
+
+        order: -1; da prioridade para ocupar o primer lugar 
+        order: 1; conforme queramos la secuencia
+        order: 2; =
+        order: 3; =
     */
 
     .ordem{
@@ -37,24 +44,23 @@
       border: 3px solid black;
       font-weight: bold;
       font-size: 30px;
-
+      
     }
 
-    .ordem1{
-      order: 1;
-    }
+  /* flex-grow: 
 
-    .ordem2{
-      order: 2;
-    }
+  permite hacer crescer um items em especifico hasta el tamanho del container 
+  definiendo 1 ocupara un item o espacio total, definindo 2 en outro items hara la proporcion depende el tamanho de los otros estendera hasta la proporcion 
+  */
+  
+  .grow1{
+    flex-grow: 1;
+  }
 
-    .ordem3{
-      order: 3;
-    }
-
-    .ordem4{
-      order: 4;
-    }
+  .grow2{
+    flex-grow: 2;
+  }
+  
 
   </style>
 </head>
@@ -64,8 +70,8 @@
     
     <div class="container">
 
-      <div class="item">01</div>
-      <div class="item">02</div>
+      <div class="item grow1">01</div>
+      <div class="item grow2">02</div>
       <div class="item ordem">03</div>
       <div class="item">04</div>
 
