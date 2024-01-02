@@ -15,7 +15,7 @@
 
     .item{
       background-color: black;
-      width: 100px;
+      width: 250px;
       height: 100px;
       margin: 10px;
       color: #ffee00;
@@ -47,10 +47,11 @@
       
     }
 
-  /* flex-grow: 
+  /* Flex-grow: | 1 | - | 2 | | 3 | define la proporcion de espacio ocupado por um items.
 
-  permite hacer crescer um items em especifico hasta el tamanho del container 
-  definiendo 1 ocupara un item o espacio total, definindo 2 en outro items hara la proporcion depende el tamanho de los otros estendera hasta la proporcion 
+    permite hacer crescer um items em especifico hasta el tamanho del container 
+    definiendo 1 ocupara un item o espacio total, definindo 2 en outro items hara la proporcion depende el tamanho de los otros estendera hasta la proporcion.
+
   */
   
   .grow1{
@@ -60,6 +61,18 @@
   .grow2{
     flex-grow: 2;
   }
+
+
+
+/* Flex-shrink: | 1 | - | 2 | | 3 | define la proporcion de reducion ocupado por um items.
+
+    permite reducir um items até certo ponto  al contrario de grow a propiedade shrink determina qual sera o items que sera reducido. em quanto mais o numero maus reducira.. 
+  */
+  
+  .reducir-shrink{
+    flex-shrink: 2;
+  }
+
   
 
   </style>
@@ -71,7 +84,7 @@
     <div class="container">
 
       <div class="item grow1">01</div>
-      <div class="item grow2">02</div>
+      <div class="item reducir-shrink">02</div>
       <div class="item ordem">03</div>
       <div class="item">04</div>
 
