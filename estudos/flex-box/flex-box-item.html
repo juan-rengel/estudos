@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex box items</title>
+  <style>
+    .container{
+      background-color: aqua;
+      height: 800px;
+      padding: 5px;
+      display: flex; /*padrao um ao lado do outro*/
+
+      /*______________________________________________
+       row | row-reverse | column | column-reverse |*/
+      flex-direction: row;
+      /*_____________________________________________________________*/
+
+
+        /* ________________________________
+        nowrap  | wrap | wrap-reverse.*/
+      flex-wrap: nowrap;
+
+    
+
+        /* _________________________________________________________________
+          flex-start  | flex-end | center | space-between | space-around .*/
+      justify-content: space-around;
+
+  
+
+        /*____________________________________________________
+        stretch | center | flex-start | flex-end | baseline.*/
+      align-items: center;
+
+    } /* fim do container */
+
+    .item{
+      background-color: black;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      color: #ffee00;
+      font-size: 20px;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 15px;
+    }
+
+
+    /* permite alterar o lugar padrao do items , conteudos etc. dentro do container
+    por padrao todos eles são 0 e vao na sequencia conforme nos alocamos e o valor negativo sempre vai ter preferencia en relacao nos padroes -1
+    */
+    .ordem1{
+      order: 1;
+    }
+    .ordem2{
+      order: 2;
+    }
+    .ordem3{
+      order: 3;
+    }
+    .ordem4{
+      order: 4;
+    }
+
+  </style>
+</head>
+<body>
+
+    <h1>flex box</h1>
+    
+    <div class="container">
+
+      <div class="item">01</div>
+      <div class="item">02</div>
+      <div class="item">03</div>
+      <div class="item">04</div>
+
+  </div>
+</body>
+</html>
