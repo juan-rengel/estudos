@@ -33,6 +33,37 @@
         */
       flex-wrap: nowrap;
       /*___________________________________________________________________*/
+    
+
+     /*
+      _________________________________________________________________
+      flex-start  | flex-end | center | space-between | space-around .
+
+          1: flex-start: padrão alina ao lado izquerdo.
+          2: flex-end :alinha o conteudo para o lado direito.
+          3: center : alinea o conteudo centrado.
+          4: space-between: deixa os laterales padrão e distribuye o resto do conteudo no medio por espacios iguales..
+          5: space-around: distribuye todos os item por espaçamentos iguales 
+
+        */
+      justify-content: space-around;
+      /*___________________________________________________________________*/
+  
+
+     /*
+      _________________________________________________________________
+      stretch | center | flex-start | flex-end | baseline.
+
+          1: stretch: ao ingles é esticado é o padrão do flex cubre toda a area até completar sua altura.
+          2: center : centraliza vertical e horizontalmente os item.  
+          3: flex-start  : alinha os item no top parte superior.
+          4: flex-end : alinha os items no fundo parte inferior.
+          5: baseline: alinha os item baseado na linha dos texto.. 
+
+        */
+      align-items: center;
+      /*___________________________________________________________________*/
+    
     }
 
     .item{
@@ -40,22 +71,25 @@
       width: 100px;
       height: 100px;
       margin: 10px;
-      color: white;
-      font-size: 30px;
+      color: #ffee00;
+      font-size: 20px;
       text-align: center;
       line-height: 100px;
+      border-radius: 15px;
     }
+
   </style>
 </head>
 <body>
-  <h1>flex box</h1>
 
-  <div class="container">
+    <h1>flex box</h1>
+    
+    <div class="container">
 
-    <div class="item">01</div>
-    <div class="item">02</div>
-    <div class="item">03</div>
-    <div class="item">04</div>
+      <div class="item">01</div>
+      <div class="item">02</div>
+      <div class="item">03</div>
+      <div class="item">04</div>
 
   </div>
 </body>
