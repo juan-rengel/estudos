@@ -61,11 +61,63 @@ nav ul li a:hover{
 
 /*PRINCIPAL
 __________________________________________*/
+.principal{
+  background-color: #227115;
+}
 
 .conteudo{
   width: 712px;
   float: left;
+  margin-bottom: 20px;
 }
+
+section#capa{
+margin-bottom: 20px;
+}
+
+h3{
+  margin: 15px 0 15px 0;
+  color: #227115;
+  font-size: 1.0em;
+  text-transform: uppercase;
+}
+
+
+article#videos{
+  width: 310px;
+  margin-left: 25px;
+  float: left;
+}
+
+article#mapa{
+  margin-left: 37px;
+  float: left;
+}
+
+article#exposicao{
+  width: 310px;
+  height: 170px;
+  margin-left: 25px;
+  float: left;
+}
+
+article#exposicao ul{
+  padding-left: 35px;
+}
+
+article#historia{
+  width: 310px;
+  height: 170px;
+  float: left;
+  margin-left: 37px;
+  
+}
+
+#historia a{
+  display: block;
+  margin-top: 10px;
+}
+
 
 /*aside
 __________________________________________*/
@@ -76,6 +128,7 @@ aside{
   float: right;
   background-color: #ebe7dd;
   padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 section#visita{
@@ -146,5 +199,20 @@ section#fotos img{
 }
 
 
+footer {
+  background: url(../imagen/fundo-rodape.png) no-repeat top center;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+footer>p a {
+  padding: 2px 10px;
+  text-align: center;
+}
+footer>p{
+  margin: 10px;
+}
 
 
