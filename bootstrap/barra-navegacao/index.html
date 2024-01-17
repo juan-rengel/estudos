@@ -127,10 +127,49 @@
         </li>
       </ul>
 
-      <!--menu navegação-->
+      <!--menu formulario-->
       <form class="form-inline"></form>
       <input type="text" class="form-control" placeholder="pesquisar...!">
       <button class="btn btn-outline-success">OK</button>
+    </div>
+   </nav>
+
+
+
+   <h3>barra de navegação simple responsivo com dropdown</h3>
+
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!--logotipo menu-->
+    <a class="navbar-brand" href="#">chale hotel</a>
+
+    <!--menu hamburger-->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--menu navegação-->
+    <div class="collapse navbar-collapse" id="nav-target">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link" href="#">sobre</a>
+        </li>
+
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">serviços</a>
+          <div class="dropdown-menu">
+            <a class="nav-item dropdown-item" href="#">serviço 1</a>
+            <a class="nav-item dropdown-item" href="#">serviço 2</a>
+            <a class="nav-item dropdown-item" href="#">serviço 3</a>
+          </div>
+        </li>
+      </ul>
+
+      <!--menu navegação-->
+      
     </div>
    </nav>
 
