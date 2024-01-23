@@ -8,12 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <title>paginação</title>
+  <title>paginação</title>
   </head>
   <body>
   <h2>Paginação: pagitation, page-item, page-link, avtived, disabled</h2>
   <nav>
-
     <ul class="pagination">
 
       <li class="page-item disabled">  <!--class disabled-->
@@ -33,18 +32,58 @@
       </li>
 
     </ul>
-
   </nav>
   <br><br>
 
-  <h2>Alinhamento de pagination: <br>
-    justify-content-center, justify-content-end </h2>
+
+
+
+
+
+    <!--aplicando setas na paginacion:
+      nao sera leible para lectores de tela por ser simbolo y não texto para solucional 
+      aplicaremos a class: sr-only dentro de outro span com o texto Anterior ou proximo. a clase ocultara o texto permitiendo mostrar apenas para lectores de telas
+    -->
+  <h2>Setas na pagination:</h2>
+  <nav>
+    <ul class="pagination">
+      <li class="page-item">  <!--class disabled-->
+        <a class="page-link" href="#">
+          <spans>&laquo</spans>
+          <span class="sr-only">Anterior</span> <!--class sr-only-->
+        </a>
+      </li>
+
+      <li class="page-item"> <!--class active-->
+        <a class="page-link" href="#">1</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="#">
+          <span>&raquo</span>
+          <span class="sr-only">Anterior</span> <!--class sr-only-->
+        </a>
+      </li>
+    </ul>
+  </nav><br><br>
+
+
+
+
+
+
+
 
   <!--Aplicado en la Ul
       class: justify-content-center  : centralizado
       class: justify-content-end  :   a direita
-  
   -->
+  <h2>Alinhamento de pagination: <br>
+    justify-content-center, justify-content-end </h2>
   <nav>
 
     <ul class="pagination justify-content-center">
@@ -62,13 +101,41 @@
       </li>
 
       <li class="page-item">
-        <a class="page-link" href="">Proximo</a>
+        <a class="page-link" href="">proximo</a>
       </li>
 
     </ul>
+  </nav><br><br>
 
-  </nav><br>
 
+
+
+<!--Aplicado na ul:
+  pagination-sm  ou  pagination-lg conforme o tamanho desejado
+  -->
+  <h2>Tamanho pagination: <br>
+    pagination-sm ou lg </h2>
+
+  <nav>
+    <ul class="pagination pagination-lg justify-content-center">
+
+      <li class="page-item disabled">  <!--class disabled-->
+        <a class="page-link" href="#">Anterior</a>
+      </li>
+
+      <li class="page-item active"> <!--class active-->
+        <a class="page-link" href="">1</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="">2</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="">proximo</a>
+      </li>
+    </ul>
+  </nav><br><br>
 
 
 
