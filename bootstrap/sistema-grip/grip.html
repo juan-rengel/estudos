@@ -7,14 +7,57 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      .marcador{
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
 
-    <title>Hello, world!</title>
+      .marcador{
+        background: #5bf946;
+        border: 1px solid #36ae26;
+      }
+    </style>
+    <title>sistma grip</title>
   </head>
   <body>
-    <h5> </h5>
+    <h1>sistema grip</h1>
+<!--es una sistema que es poojectado como 12 colunas para projectar los layourt:
+
+col-   Extra small < 576px
+col-sm  small => 576 px
+col-md  Medium => 768 px
+col-lg  Large => 992 px
+col-xl  Extra Large => 1140 px 
+-->
+
+<div class="container marc-container"> <!--area de todo o conteudo-->
+
+  <!--cada row es una area do site y dentro de ella se dividiran las colunas por cada area -->
+  <div class="row marcador"> <!--ex: topo-->
+    <div class="col col-12">topo</div>
+  </div>
+
+  <div class="row marcador"> <!--ex: menu-->
+    <div class="col-12 col-md-3">area1</div>
+    <div class="col-12 col-md-3">area2</div>
+    <div class="col-12 col-md-3">area2</div>
+    <div class="col-12 col-md-3">area2</div>
+  </div>
+
+  <div class="row marcador"> <!--ex: conteudo-->
+    <div class="col col-6">area1</div>
+    <div class="col col-6">area2</div>
+  </div>
+
+  <div class="row marcador"> <!--ex: rodape-->
+    <div class="col col-6">area1</div>
+    <div class="col col-6">area2</div>
+  </div>
 
 
 
+</div>
 
 
 
