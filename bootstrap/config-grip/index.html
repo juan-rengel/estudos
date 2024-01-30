@@ -21,6 +21,7 @@
       }
       .borda{
         border: 1px solid black;
+        background-color: chocolate;
       }
     </style>
     <title>alinamento grid</title>
@@ -54,7 +55,6 @@ exemplo:
 stard : padrao alinhado acima no row
 center: centralizado vertical e hotizontarmente do row
 end: a parte inferior do row-->
-
 <div class="container marcador-container">
   <div class="row marcador">
 
@@ -69,6 +69,68 @@ end: a parte inferior do row-->
 
 
 
+
+<h2> Alinamhento horizontal de colunas ( justify-content- (stard, center, end) ) </h2>
+<!--permite alinar a coluna enteira centrada o a la direita do container
+exemplo:
+stard : padrao alinhado a ezquerda no container
+center: centralizado do row
+end: alinhado a direita-->
+<div class="container-fuid marcador-container">
+  <div class="row justify-content-end marcador">
+
+    <div class="col-3 borda">Items 01</div>
+    <div class="col-3 borda">Items 02</div>
+    <div class="col-3 borda">Items 03</div>
+
+  </div>
+</div>
+<br><br>
+
+
+
+
+
+<h2> distribuições dos items (around - between)</h2>
+<!--permite alinar os items de maneira distribuida conforme o espacio. 
+exemplo:
+around :aplica um espaçamento nas areas laterais do y entre items
+between:cola as areas laterais e aplica espaçamento por iguais entre items .-->
+<div class="container-fuid marcador-container">
+  <div class="row marcador justify-content-around">
+    <div class="col-3 borda">Items 01</div>
+    <div class="col-3 borda">Items 02</div>
+    <div class="col-3 borda">Items 03</div>
+
+  </div>
+</div>
+<div class="container-fuid marcador-container">
+  <div class="row marcador justify-content-between">
+    <div class="col-3 borda">Items 01</div>
+    <div class="col-3 borda">Items 02</div>
+    <div class="col-3 borda">Items 03</div>
+
+  </div>
+</div>
+<br><br>
+
+
+
+
+
+<h2> removendo espaçamento dos items</h2>
+<!--permite alinar remover todo os espaççamento dos items com padding e margen 
+exemplo:
+class : no-gutters .-->
+<div class="container-fuid marcador-container">
+  <div class="row marcador no-gutters">
+    <div class="col-3 borda">Items 01</div>
+    <div class="col-3 borda">Items 02</div>
+    <div class="col-3 borda">Items 03</div>
+
+  </div>
+</div>
+<br><br>
 
 
 
