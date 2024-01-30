@@ -21,7 +21,6 @@
       .marcador{
         background: #5bf946;
         border: 1px solid #36ae26;
-        height: 120px;
       }
     </style>
 
@@ -32,18 +31,82 @@
     <div class="container marcador-container">
 
       <h2>Largura fixa</h2>
+      <div class="row">
+        <div class="col marcador"> Conteido 1</div>
+        <div class="col marcador"> Conteido 2</div>
+        <div class="col marcador"> Conteido 3</div>
+      </div>
+      <!--se aplicada a class col y aplicara todos los lados iguais fixos-->
+      <br><br>
+
+
 
       <h2>Largura automatica (auto-layourt) </h2>
+      <div class="row">
+        <div class="col-3 marcador"> Conteido 1</div>
+        <div class="col-3 marcador"> Conteido 2</div>
+        <div class="col marcador"> Conteido 3</div> <!--sin definicion autom.-->
+      </div>
+      <!--se define a 2 coluna con colunas definida y otra sera automaticamente redimensionada conforme o dispositivo-->
+      <br><br>
+
+
 
       <h2>Largura igual compilhada</h2>
+      <div class="row">
+        <div class="col-sm-4 marcador"> Conteido 1</div>
+        <div class="col-sm-4 marcador"> Conteido 2</div>
+        <div class="col-sm-4 marcador"> Conteido 3</div>
+      </div>
+      <!--aplica apartir de un deetrminado tamano formataçoes enquanto no seran padron uma acima de otra-->
+      <br><br>
 
-      <h2>ordenado</h2>
 
-      <h2>offset</h2>
 
-      <h2>offset multiplos alinhamentos/h2>
+      <h2>ordenado class order-</h2>
+      <div class="row">
+        <div class="col-4 order-3 marcador"> Conteido 1</div>
+        <div class="col-4 order-1 marcador"> Conteido 2</div>
+        <div class="col-4 order-2 marcador"> Conteido 3</div>
+      </div>
+      <!--aplicando class order- podemos ordenar nuestra visualizacion conforme nos queramos na sequencia determinada-->
+      <br><br>
 
-      <h2>alinhamentos</h2>
+
+
+      <h2>offset ex: alinamento formulario ou conteudo</h2>
+      <div class="row border border-dark">
+        <div class="col-6 offset-3 marcador"> Conteido 1</div>
+      </div>
+      <!--aplicada directo no items para definir conforme as colunas usada da row onde alocaremos o items-->
+      <br><br>
+
+
+
+      <h2>offset multiplos alinhamentos</h2>
+        <div class="row border border-dark">
+          <div class="col-3 offset-2 marcador"> Conteido 1</div>
+          <div class="col-3 offset-2 marcador"> Conteido 1</div>
+        </div>
+        <!--aplicada directo no items observacion dejar ocupando todas las 12 colunas pulara una linha se deixamos un espacio podemos manger en una unica linea-->
+        <br><br>
+  
+  
+  
+      <h2>alinhamentos sistema row dentro de outro sistema row</h2>
+      <div class="row">
+        <div class="col-md-6 border border-primary">
+          col-md-6
+          <div class="row">
+            <div class="col-md-6 marcador">nome</div>
+            <div class="col-md-6 marcador">apellido</div>
+            
+            <button class="col-12 btn btn-primary">logar</button>
+          </div>
+
+        </div>
+      </div>
+
 
     </div>
 
