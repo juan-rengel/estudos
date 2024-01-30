@@ -17,29 +17,54 @@
       .marcador{
         background: #5bf946;
         border: 1px solid #36ae26;
+        height: 120px;
+      }
+      .borda{
+        border: 1px solid black;
       }
     </style>
     <title>alinamento grid</title>
   </head>
   <body>
-    <h2> Alinamhento ( align-items- (stard, center, end) )</h2>
-<!--tiene como objetivo alinar verticalmente los items
+
+
+<h2> Alinamhento top,center, abaixo da coluna entera ( align-items- (stard, center, end) )</h2>
+<!--tiene como objetivo alinar verticalmente acima, centrado o abajo la coluna entreta: es aplicado no row
 exemplo:
 stard : padrao alinhado acima
-center: centralizado vertical e hotizontarmente os items
+center: centralizado vertical e hotizontarmente la coluna
 end: a parte inferior do site -->
 
 <div class="container marcador-container">
+  <div class="row align-items-end marcador">
 
-  <div class="row col marcador">
-
-    <div>Items 01</div>
-    <div>Items 02</div>
-    <div>Items 03</div>
+    <div class="col borda">Items 01</div>
+    <div class="col borda">Items 02</div>
+    <div class="col borda">Items 03</div>
 
   </div>
-
 </div>
+<br><br>
+
+
+
+<h2> Alinamhento vertical individual de cada items( align-self- (stard, center, end) )</h2>
+<!--self traducido é propio tiene como objetivo alinar verticalmente los items es aplicado a cada items directamente.
+exemplo:
+stard : padrao alinhado acima no row
+center: centralizado vertical e hotizontarmente do row
+end: a parte inferior do row-->
+
+<div class="container marcador-container">
+  <div class="row marcador">
+
+    <div class="col borda align-self-start">Items 01</div>
+    <div class="col borda align-self-center">Items 02</div>
+    <div class="col borda align-self-end">Items 03</div>
+
+  </div>
+</div>
+<br><br>
 
 
 
